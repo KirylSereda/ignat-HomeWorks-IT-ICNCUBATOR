@@ -1,58 +1,58 @@
 .message {
-    display: flex;
-    align-items: flex-end;
-    margin: 20px;
+  display: flex;
+  align-items: flex-end;
+  margin: 20px;
 }
 
 .img {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 45px;
 }
 
 .angle {
-    width: 15px;
-    height: 15px;
-    background: radial-gradient(circle at 0 0,transparent 15px,#002200 0);
+  width: 15px;
+  height: 15px;
+  background: radial-gradient(circle at 0 0, transparent 15px, #626a62 0);
 }
 
 .message_name {
-    margin-bottom: 5px;
-   color:blueviolet;
-   font-weight:500;
-   word-break: break-all;
+  margin-bottom: 5px;
+  color: blueviolet;
+  font-weight: 500;
+  word-break: break-all;
 }
 
 .message_info {
-    display: flex;
+  display: flex;
 }
 
 .message_content {
-    background-color:#002200;
-    min-height: 60px;
-    max-width: 300px;
-    height: 80%;
-    padding: 15px 15px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-radius:7px 7px 7px 0px;
+  background-color: #626a62;
+  min-height: 60px;
+  max-width: 300px;
+  height: 80%;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 7px 7px 7px 0px;
 }
 
 .img {
-    width: 60px;
-    border-radius: 100%;
+  width: 60px;
+  border-radius: 100%;
 }
 
 .message_text {
-    color:white
+  color: white;
 }
 
 .message_time {
-    color:white;
-    margin-left: 25px;
-    transition:0.3 ;
-    opacity: 0.2;
-    align-self: end;
-    margin-bottom: -10px;
-    margin-left: -25px;
+  color: white;
+  margin-left: 25px;
+  transition: 0.3;
+  opacity: 0.2;
+  align-self: end;
+  margin-bottom: -10px;
+  margin-left: -25px;
 }

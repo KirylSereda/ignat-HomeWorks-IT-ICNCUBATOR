@@ -1,5 +1,5 @@
-import React from 'react'
-import {AffairType} from "./HW2";
+import s from './Affair.module.css'
+import { AffairType } from "../HW2";
 
 type AffairPropsType = {
 
@@ -14,9 +14,11 @@ function Affair(props: AffairPropsType) {
     }
 
     return (
-        <div>
-            {props.affair.name}
-            <button onClick={deleteCallback}>X</button>
+        <div className={s.contener}>
+            <div className={s.item}>
+                <div>{props.affair.name}</div>
+                <button className={s.BtnCross} onClick={deleteCallback}></button>
+            </div>
         </div>
     )
 }

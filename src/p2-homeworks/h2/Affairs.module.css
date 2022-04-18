@@ -1,3 +1,28 @@
-.someClass {
+.list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 250px;
+  padding-left: 20px;
+}
 
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btn {
+  width: 60px;
+  font-size: 12px;
+  background-color: rgb(97, 101, 101);
+  border: rgb(189, 184, 184) 2px solid;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: rgb(47, 45, 45);
+  transition: 0.3s linear;
 }

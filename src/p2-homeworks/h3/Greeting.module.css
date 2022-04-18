@@ -1,7 +1,18 @@
 .someClass {
-
+  color: white;
 }
 
 .error {
-    border: 1px solid red;
+  color: red;
+}
+
+.btn {
+  width: 60px;
+  margin: 10px;
+  font-size: 12px;
+  background-color: rgb(97, 101, 101);
+  border: rgb(189, 184, 184) 2px solid;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
 }

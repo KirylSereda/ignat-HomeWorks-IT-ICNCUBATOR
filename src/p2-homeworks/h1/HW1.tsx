@@ -11,7 +11,8 @@ function HW1() {
     return (
         < >
             <hr />
-            homeworks 1
+            Homeworks 1
+            <hr />
             <Message
                 avatar={messageData.avatar}
                 name={messageData.name}

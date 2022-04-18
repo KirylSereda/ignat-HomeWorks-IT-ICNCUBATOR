@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Affairs from './Affairs'
 
 // types
@@ -12,20 +12,20 @@ export type FilterType = 'all' | AffairPriorityType
 
 // constants
 const defaultAffairs: Array<AffairType> = [
-    {_id: 1, name: 'React', priority: 'high'},
-    {_id: 2, name: 'anime', priority: 'low'},
-    {_id: 3, name: 'games', priority: 'low'},
-    {_id: 4, name: 'work', priority: 'high'},
-    {_id: 5, name: 'html & css', priority: 'middle'},
+    { _id: 1, name: 'React', priority: 'high' },
+    { _id: 2, name: 'Anime', priority: 'low' },
+    { _id: 3, name: 'Games', priority: 'low' },
+    { _id: 4, name: 'Work', priority: 'high' },
+    { _id: 5, name: 'HTML & CSS', priority: 'middle' },
 ]
 
 // pure helper functions
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => {
-    return filter === 'all' ? affairs : affairs.filter(affair => affair.priority == filter)
+    return filter === 'all' ? affairs : affairs.filter(affair => affair.priority === filter)
 
 }
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => {
-    return affairs.filter(affair => affair._id != _id)
+    return affairs.filter(affair => affair._id !== _id)
 }
 
 function HW2() {
@@ -37,9 +37,8 @@ function HW2() {
 
     return (
         <div>
-            <hr/>
-            homeworks 2
-
+            Homeworks 2
+            <hr />
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}

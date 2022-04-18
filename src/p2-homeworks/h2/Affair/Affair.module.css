@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.BtnCross {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: url(../img/cross.png) no-repeat center;
+  background-size: contain;
+  align-self: center;
+}
