@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ignat-HomeWorks-IT-ICNCUBATOR/static/css/main.94273f84.css",
+    "main.js": "/ignat-HomeWorks-IT-ICNCUBATOR/static/js/main.fd6f9cd6.js",
+    "static/media/background.jpg": "/ignat-HomeWorks-IT-ICNCUBATOR/static/media/background.041c63fbe755a603b314.jpg",
+    "static/media/cross.png": "/ignat-HomeWorks-IT-ICNCUBATOR/static/media/cross.bc41c7f26ab86e33a36d.png",
+    "index.html": "/ignat-HomeWorks-IT-ICNCUBATOR/index.html",
+    "main.94273f84.css.map": "/ignat-HomeWorks-IT-ICNCUBATOR/static/css/main.94273f84.css.map",
+    "main.fd6f9cd6.js.map": "/ignat-HomeWorks-IT-ICNCUBATOR/static/js/main.fd6f9cd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94273f84.css",
+    "static/js/main.fd6f9cd6.js"
+  ]
+}
