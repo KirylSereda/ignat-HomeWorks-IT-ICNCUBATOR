@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { v1 } from 'uuid'
 import GreetingContainer from './GreetingContainer'
 
-// types
 export type UserType = {
     _id: string
     name: string

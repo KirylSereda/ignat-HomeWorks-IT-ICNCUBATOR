@@ -12,7 +12,7 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     { name, setNameCallback, addUser, error, totalUsers }
 ) => {
-    const inputClass = error === 'name is require' ? s.error : ''
+    const inputClass = error ? s.error : ''
 
     return (
         <div>
@@ -23,7 +23,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                 <button className={s.btn} onClick={addUser}>Add</button>
                 <span>{totalUsers}</span>
             </div>
-            <div className={inputClass}> {error}</div>
+            <div className={inputClass}>{error}</div>
         </div>
     )
 }

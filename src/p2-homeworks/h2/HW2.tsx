@@ -10,7 +10,6 @@ export type AffairType = {
 }
 export type FilterType = 'all' | AffairPriorityType
 
-// constants
 const defaultAffairs: Array<AffairType> = [
     { _id: 1, name: 'React', priority: 'high' },
     { _id: 2, name: 'Anime', priority: 'low' },
@@ -19,7 +18,6 @@ const defaultAffairs: Array<AffairType> = [
     { _id: 5, name: 'HTML & CSS', priority: 'middle' },
 ]
 
-// pure helper functions
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => {
     return filter === 'all' ? affairs : affairs.filter(affair => affair.priority === filter)
 
@@ -43,8 +41,8 @@ function HW2() {
                 data={filteredAffairs}
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
+                filter={filter}
             />
-
         </div>
     )
 }

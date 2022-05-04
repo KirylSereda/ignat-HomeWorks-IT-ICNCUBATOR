@@ -1,7 +1,37 @@
-.default {
+.button {
+  position: relative;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 12px;
+  width: 70px;
+  outline: none;
+  background-color: rgb(97, 101, 101);
+  color: white;
+  border: rgb(189, 184, 184) 2px solid;
+  border-radius: 3px;
+  transition: 1s;
+  overflow: hidden;
+}
 
+.button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -200px;
+  width: 30px;
+  height: 100%;
+  background-color: white;
+  filter: skew(45px);
+  transform: skewX(-30deg);
+}
+
+.button:hover:before,
+.button:focus:before {
+  left: calc(100% + 150px);
+  transition: 1s;
 }
 
 .red {
-    background: red;
+  background: red;
 }

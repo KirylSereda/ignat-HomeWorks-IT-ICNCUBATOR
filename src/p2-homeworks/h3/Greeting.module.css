@@ -16,3 +16,9 @@
   color: white;
   cursor: pointer;
 }
+
+.btn:hover {
+  color: rgb(47, 45, 45);
+  transition: 0.3s linear;
+  font-weight: bold;
+}

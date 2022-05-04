@@ -15,10 +15,10 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({ users, addUse
         const inputName = e.currentTarget.value.trim()
         if (inputName.length <= 0) {
             setName(inputName)
-            setError('name is require')
+            setError('Name is require!')
         } else {
             setName(inputName)
-            setError(' ')
+            setError('')
         }
 
     }
