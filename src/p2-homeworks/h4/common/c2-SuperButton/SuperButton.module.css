@@ -1,9 +1,10 @@
 .button {
   position: relative;
   cursor: pointer;
-  margin: 5px;
-  font-size: 12px;
-  width: 70px;
+  margin: 10px;
+  font-size: 15px;
+
+  width: 80px;
   outline: none;
   background-color: rgb(97, 101, 101);
   color: white;
@@ -11,6 +12,7 @@
   border-radius: 3px;
   transition: 1s;
   overflow: hidden;
+  letter-spacing: 1px;
 }
 
 .button:before,

@@ -7,12 +7,13 @@
 }
 
 .btn {
-  width: 60px;
+  width: 75px;
   margin: 10px;
-  font-size: 12px;
+  font-size: 15px;
   background-color: rgb(97, 101, 101);
   border: rgb(189, 184, 184) 2px solid;
   border-radius: 2px;
+  letter-spacing: 1px;
   color: white;
   cursor: pointer;
 }

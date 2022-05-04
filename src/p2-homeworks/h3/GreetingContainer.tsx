@@ -31,7 +31,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({ users, addUse
     const totalUsers = users.length
 
     return (
-        <div style={{ padding: "0px 0px 40px 20px" }}>
+        <div style={{ padding: "0px 0px 15px 20px" }}>
             <Greeting
                 name={name}
                 setNameCallback={setNameCallback}
