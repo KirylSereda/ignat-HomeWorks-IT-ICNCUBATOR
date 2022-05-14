@@ -1,0 +1,9 @@
+.editableSpan {
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+  background: url("./Pencil.png") no-repeat;
+  background-size: 15px;
+  background-position-y: center;
+  padding-left: 15px;
+}
