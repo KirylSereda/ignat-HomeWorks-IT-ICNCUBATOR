@@ -4,7 +4,7 @@
   margin: 10px;
   font-size: 15px;
 
-  width: 80px;
+  min-width: 80px;
   outline: none;
   background-color: rgb(97, 101, 101);
   color: white;
