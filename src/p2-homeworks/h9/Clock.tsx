@@ -21,8 +21,8 @@ function Clock() {
 
     const onMouseEnter = () => {
         setShow(true)
-
     }
+
     const onMouseLeave = () => {
         setShow(false)
     }
@@ -43,10 +43,8 @@ function Clock() {
                     {stringDate}
                 </div>
             ) : (<h5></h5>)}
-
-            <SuperButton onClick={start}>start</SuperButton>
-            <SuperButton onClick={stop}>stop</SuperButton>
-
+            <SuperButton onClick={start}>Start</SuperButton>
+            <SuperButton onClick={stop}>Stop</SuperButton>
         </div>
     )
 }
