@@ -3,29 +3,29 @@ import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
 
 function HW11() {
-    const [value1, setValue1] = useState(1)
-    const [value2, setValue2] = useState(100)
 
-    const onChangeRange = ([value1, value2]: Array<number>) => {
-        setValue1(value1)
-        setValue2(value2)
-    }
+    let startMin = 0
+    let startMax = 100
+    const [min, setMinValue] = useState(startMin)
+    const [max, setMaxValue] = useState(startMax)
 
     return (
         <div>
             Homeworks 11
             <hr />
             <div>
-                <span>{value1}</span>
-                <SuperRange onChangeRange={setValue1}
+                <span>{min}</span>
+                <SuperRange onChangeRange={setMinValue}
                 />
             </div>
             <div>
-                <span>{value1}</span>
-                <SuperDoubleRange values={[value1, value2]} onChangeRange={onChangeRange}
-                // сделать так чтоб value1 и value2 изменялось
+                <SuperDoubleRange
+                    startMin={startMin}
+                    startMax={startMax}
+                    values={[min, max]}
+                    setMinValue={setMinValue}
+                    setMaxValue={setMaxValue}
                 />
-                <span>{value2}</span>
             </div>
             <hr />
         </div>

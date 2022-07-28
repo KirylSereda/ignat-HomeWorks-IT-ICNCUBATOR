@@ -25,4 +25,4 @@ export const changeTheme = (theme: string) =>
   ({
     type: CHANGE_THEME,
     theme,
-  } as const); // fix any
+  } as const); 

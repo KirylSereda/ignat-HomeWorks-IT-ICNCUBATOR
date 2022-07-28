@@ -20,6 +20,7 @@ function HW12() {
         <div className={s[theme]}>
             <div className={s[theme]}>
                 Homeworks 12
+                <hr />
             </div>
             <SuperSelect
                 options={themes}
